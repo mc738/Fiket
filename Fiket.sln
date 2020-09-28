@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Fiket.Common", "Fiket.Common\Fiket.Common.fsproj", "{1468CFC2-DD1A-4AE6-9513-89B4BDC48EEA}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Fiket.Core", "Fiket.Core\Fiket.Core.fsproj", "{CBDB1779-5EB1-4962-AF87-BFCDBF6D6111}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Fiket.Console", "Fiket.Console\Fiket.Console.fsproj", "{DB7548D4-EE0D-49F9-A187-F9DF8389FAD0}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Fiket.WebApi", "Fiket.WebApi\Fiket.WebApi.fsproj", "{67848322-34F2-482A-B8B9-AAD52A863AC5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{D57029AE-F8BA-4310-979A-9FF52FDF7DAC}"
+ProjectSection(SolutionItems) = preProject
+	README.md = README.md
+	TODO.md = TODO.md
+EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1468CFC2-DD1A-4AE6-9513-89B4BDC48EEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1468CFC2-DD1A-4AE6-9513-89B4BDC48EEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1468CFC2-DD1A-4AE6-9513-89B4BDC48EEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1468CFC2-DD1A-4AE6-9513-89B4BDC48EEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBDB1779-5EB1-4962-AF87-BFCDBF6D6111}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBDB1779-5EB1-4962-AF87-BFCDBF6D6111}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBDB1779-5EB1-4962-AF87-BFCDBF6D6111}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBDB1779-5EB1-4962-AF87-BFCDBF6D6111}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB7548D4-EE0D-49F9-A187-F9DF8389FAD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB7548D4-EE0D-49F9-A187-F9DF8389FAD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB7548D4-EE0D-49F9-A187-F9DF8389FAD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB7548D4-EE0D-49F9-A187-F9DF8389FAD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67848322-34F2-482A-B8B9-AAD52A863AC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67848322-34F2-482A-B8B9-AAD52A863AC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67848322-34F2-482A-B8B9-AAD52A863AC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67848322-34F2-482A-B8B9-AAD52A863AC5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
